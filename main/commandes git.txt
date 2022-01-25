@@ -1,0 +1,31 @@
+pour cloner le repository sur le pc
+git clone "url"
+
+changer de répertoire : 
+*cd "nomDuRepository"
+
+ajouter des fichiers dans le repository -> liste temporaire en attente d'envoie (commit)
+git add *			pour tous les fichiers modifié
+git add "nomDuFichier" 		pour un fichier spécifiquement
+git add -A 			ajouter les nouveaux fichiers
+ajouter un commit 
+git commit -m "changements"
+
+upload le commit 
+git push
+
+recupérer les nouveautés 
+git pull			Que les changements
+git fetch			Récupérer tous les éléments
+
+créer une branch 
+git branch nomDeLaBranch
+
+se rendre sur une branch
+git checkout nomDeLaBranch
+
+envoyer la nouvelle branch en ligne
+git push --set-upstream origin dev
+
+fusionner les commit
+git merge
